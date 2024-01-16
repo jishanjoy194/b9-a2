@@ -33,6 +33,10 @@ body{
     color: #FF5400;
 }
 
+#hamburger{
+    display: none
+}
+
 .items-container{
     width: 50%;
     display: flex;
@@ -84,7 +88,7 @@ body{
     margin-left: 185px;
     margin-top: 48px;
 }
-.common-btn{
+#bar-option{
     width: 174px;
     height: 52px;
     background: #FFF;
@@ -93,10 +97,168 @@ body{
     padding-left: 15px ;
 }
 
-#unique-btn{
+#search-option{
     background-color: #FF5400;
     color: #FFF;
     font-size: 16px;
     font-weight: 700;
     text-align: center;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+}
+
+.list-section{
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 100px;
+}
+
+.text-container{
+    width: 50%;
+}
+
+.text-container h1{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.text-content{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.text-content li{
+    list-style-position: inside;
+}
+
+.img-container{
+    width: 50%;
+    border-radius: 16px;
+    margin-left: 53px;
+}
+
+.main-btn{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 32px;
+}
+
+.destination-section{
+    max-width: 1250px;
+    margin-top: 174px;
+    margin: 0 auto;
+}
+
+.text-destination{
+    text-align: center;
+}
+
+.text-destination h1{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.text-destination p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.grid-destination{
+    border-radius: 16px;
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    display: grid;
+    grid-template-areas: 
+    "maldives maldives indonesia indonesia"
+    "srilanka america america kashmir"
+    "bd bd bandarban bandarban"
+    ;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+#maldives{
+    background-image: url(../B9A2-Hero-Travel-main/Images/Rectangle\ 5.png);
+    width: 573px;
+    height: 300px;
+    grid-area: maldives;
+    /* display: flex;
+    justify-content: center; */
+}
+
+#indonesia{
+    background-image: url(../B9A2-Hero-Travel-main/Images/Rectangle\ 8.png);
+    max-width: 573px;
+    max-height: 300px;
+    border: 2px solid red;
+    grid-area: indonesia;
+    /* display: flex;
+    justify-content: center; */
+    width: 100%;
+    background-size: cover;
+    margin-left: -40px;
+}
+
+#srilanka{
+    background-image: url(../B9A2-Hero-Travel-main/Images/Rectangle\ 6.png);
+    width: 374px;
+    height: 286px;
+    grid-area: srilanka;
+    /* display: flex;
+    justify-content: center; */
+
+}
+
+#america{
+    background-image: url(../B9A2-Hero-Travel-main/Images/Rectangle\ 7.png);
+    width: 474px;
+    height: 286px;
+    grid-area: america;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+}
+
+#kashmir{
+    background-image: url(../B9A2-Hero-Travel-main/Images/Rectangle\ 9.png);
+    width: 274px;
+    height: 286px;
+    grid-area: kashmir;
+    display: flex;
+    justify-content: center;
+    /* margin-left: -420px; */
+}
+
+#bd{
+    background-image: url(../B9A2-Hero-Travel-main/Images/Rectangle\ 11.png);
+    width: 473px;
+    height: 300px;
+    grid-area: bd;
+    /* display: flex;
+    justify-content: center; */
+}
+
+#bandarban{
+    background-image: url(../B9A2-Hero-Travel-main/Images/Rectangle\ 10.png);
+    width: 673px;
+    height: 300px;
+    grid-area: bandarban;
+    /* display: flex;
+    justify-content: center; */
+    margin-left: -150px;
 }
