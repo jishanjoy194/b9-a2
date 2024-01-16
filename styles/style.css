@@ -262,3 +262,70 @@ body{
     justify-content: center; */
     margin-left: -150px;
 }
+
+.choose-container{
+    max-width: 1250px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+
+.text h2{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    margin-top: 100px;
+}
+
+.text p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.content1{
+    margin-bottom: 1.25px;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.25rem;
+    margin-top: 3rem;
+}
+
+.hotel{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+}
+
+.service{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px;
+}
+
+
+.content1 img{
+    margin-bottom: 32px;
+}
+
+.price img{
+    margin-bottom: 32px;
+}
+
+.content1 h2{
+    color: #131318;
+    margin-bottom: 1rem;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.content1 p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
