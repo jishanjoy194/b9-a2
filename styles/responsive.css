@@ -105,15 +105,23 @@
         width: 77vw;
     }
 
+    /* optional section */
+    .destinations-grid {
+        flex-direction: column;
+    }
+    
+    .destination {
+        width: 90%;
+        margin-bottom: 30px;
+    }
 
 
     /* footer section */
     .footer-section{
         /* max-width: 375px; */
         max-height: 309px;
-        width: 100%
-
-        /* margin-top: 400px; */
+        width: 100%;
+        margin-top: 2rem;
     }
     span{
         font-size: 22px;
