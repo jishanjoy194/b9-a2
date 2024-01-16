@@ -66,4 +66,24 @@
         margin-left: 16px;
         margin-top: 24px;
     }
+
+
+
+
+
+    /* choose section */
+    .choose-text h2{
+        font-size: 20px;
+        margin-top: 24px;
+    }
+    .choose-text p{
+        font-size: 14px;
+    }
+    .choose-content{
+        flex-direction: column;
+    }
+    .price{
+        width: 71vw;
+    }
+    
 }

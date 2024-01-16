@@ -266,10 +266,10 @@ body{
 .choose-container{
     max-width: 1250px;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
-.text h2{
+.choose-text h2{
     color: #131318;
     text-align: center;
     font-size: 40px;
@@ -278,14 +278,14 @@ body{
     margin-top: 100px;
 }
 
-.text p{
+.choose-text p{
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     font-size: 16px;
     font-weight: 400;
 }
 
-.content1{
+.choose-content{
     margin-bottom: 1.25px;
     display: flex;
     justify-content: space-between;
@@ -307,6 +307,28 @@ body{
     padding: 32px;
 }
 
+.price{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 50%;
+    max-width: 573px;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+.price h2{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.price p{
+    color: #131318;
+    font-size: 16px;
+    font-weight: 400;
+}
 
 .content1 img{
     margin-bottom: 32px;
