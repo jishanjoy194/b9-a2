@@ -78,7 +78,63 @@ body{
     font-weight: 400;
 }
 
+/* btn-2 */
 .btn-primary{
+    background-color: rgba(255, 255, 255, 0.30);
+    border-radius: 8px;
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    margin-left: 185px;
+    margin-top: 48px;
+}
+
+.btn-primary .input-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .btn-primary input[type="text"] {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    width: 174px;
+    height: 52px;
+  }
+  
+  .select-button {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .options-wrapper {
+    position: absolute;
+    top: 35px; 
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 5px;
+    display: none;
+  }
+  
+
+  #search-option{
+    background-color: #FF5400;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+  }
+  
+
+/* .btn-primary{
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.30);
     display: inline-flex;
@@ -107,7 +163,7 @@ body{
     height: 52px;
     border-radius: 8px;
     border: none;
-}
+} */
 
 .list-section{
     max-width: 1250px;
@@ -158,6 +214,8 @@ body{
     margin-top: 32px;
 }
 
+/* destination section */
+
 .destination-section{
     max-width: 1250px;
     margin-top: 174px;
@@ -190,32 +248,36 @@ body{
     grid-template-areas: 
     "maldives maldives indonesia indonesia"
     "srilanka america america kashmir"
-    "bd bd bandarban bandarban"
-    ;
+    "bd bd bandarban bandarban";
     gap: 24px;
     margin-top: 48px;
 }
+
+#maldives, #indonesia, #srilanka, #america, #kashmir, #bd, #bandarban {
+    background-size: cover; /* Ensure images cover the entire area */
+    display: flex;
+    justify-content: center; /* Center the country names */
+    align-items: center; /* Vertically center the names */
+    width: 100%; /* Fill the entire grid area */
+    max-height: 300px; /* Set the max-height */
+  }
 
 #maldives{
     background-image: url(../B9A2-Hero-Travel-main/Images/Rectangle\ 5.png);
     width: 573px;
     height: 300px;
     grid-area: maldives;
-    /* display: flex;
-    justify-content: center; */
 }
 
 #indonesia{
     background-image: url(../B9A2-Hero-Travel-main/Images/Rectangle\ 8.png);
     max-width: 573px;
     max-height: 300px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     grid-area: indonesia;
-    /* display: flex;
-    justify-content: center; */
     width: 100%;
     background-size: cover;
-    margin-left: -40px;
+    margin-left: -50px;
 }
 
 #srilanka{
@@ -223,8 +285,6 @@ body{
     width: 374px;
     height: 286px;
     grid-area: srilanka;
-    /* display: flex;
-    justify-content: center; */
 
 }
 
@@ -244,8 +304,9 @@ body{
     height: 286px;
     grid-area: kashmir;
     display: flex;
-    justify-content: center;
-    /* margin-left: -420px; */
+    /* gap: 24px; */
+    /* border: 1px solid red; */
+    margin-left: 70px;
 }
 
 #bd{
@@ -253,8 +314,6 @@ body{
     width: 473px;
     height: 300px;
     grid-area: bd;
-    /* display: flex;
-    justify-content: center; */
 }
 
 #bandarban{
@@ -262,10 +321,9 @@ body{
     width: 673px;
     height: 300px;
     grid-area: bandarban;
-    /* display: flex;
-    justify-content: center; */
     margin-left: -150px;
-}
+} 
+
 
 .choose-container{
     max-width: 1250px;
@@ -440,7 +498,7 @@ body{
     margin-left: 550px;
 }
 
-.footer-more{
+.footer-text{
     width: 769px;
     margin: 10px auto;
     margin-bottom: 30px;
