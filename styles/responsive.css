@@ -97,7 +97,26 @@
 
     /* destination section */
     .grid-destination{
+        grid-template-areas: 
+        "maldives"
+        "indonesia"
+        "srilanka"
+        "america"
+        "kashmir"
+        "bd"
+        "bandarban"
+        ;
+    }
+    #maldives{
+        width: 100%;
+        /* height: 176px; */
         
+        
+    }
+    
+    #indonesia{
+        width: 90%;
+        height: 176px;
     }
         
 
@@ -110,10 +129,11 @@
         font-size: 14px;
     }
     .choose-content{
-        flex-direction: column;
+        grid-template-columns: repeat(1,1fr);
     }
-    .price{
+    .price-guarantee-part{
         width: 77vw;
+        margin-left: 0;
     }
 
     /* optional section */

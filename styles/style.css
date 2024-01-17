@@ -215,12 +215,12 @@ body{
 }
 
 #maldives, #indonesia, #srilanka, #america, #kashmir, #bd, #bandarban {
-    background-size: cover; /* Ensure images cover the entire area */
+    background-size: cover; 
     display: flex;
-    justify-content: center; /* Center the country names */
-    align-items: center; /* Vertically center the names */
-    width: 100%; /* Fill the entire grid area */
-    max-height: 300px; /* Set the max-height */
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+    max-height: 300px; 
   }
 
 #maldives{
@@ -310,8 +310,9 @@ body{
 
 .choose-content{
     margin-bottom: 1.25px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
     gap: 1.25rem;
     margin-top: 3rem;
 }
@@ -330,14 +331,16 @@ body{
     padding: 32px;
 }
 
+
 .price-guarantee-part{
     border-radius: 16px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
-    width: 50%;
+    width: 90%;
     max-width: 573px;
-    margin: 0 auto;
+    margin-left: 300px;
     padding: 32px;
+    align-items: center;
 }
 
 .price-guarantee-part h2{
