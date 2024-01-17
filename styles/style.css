@@ -445,6 +445,10 @@ body{
     border-radius: 16px;
 }
 
+.form-structure{
+    margin-left: 30px;
+}
+
 .form-title{
     color: #131318;
     font-size: 24px;
@@ -480,13 +484,10 @@ hr{
     border-radius: 8px;
     background: #FF5400;
     color: #FFF;
-    text-align: center;
     font-size: 20px;
     font-weight: 800;
-}
-
-.form-structure{
-    margin-left: 30px;
+    text-align: center;
+    
 }
 
 .image{
@@ -503,6 +504,7 @@ hr{
     background: #FF5400;
     margin-top: 250px;
     margin-bottom: 300px;
+    margin-left: 342px;
 }
 
 .Travel{
@@ -510,6 +512,7 @@ hr{
     text-align: center;
     font-size: 24px;
     font-weight: 400;
+    padding-top: 10px;
 }
 
 .Save-up{
@@ -517,7 +520,7 @@ hr{
     font-size: 32px;
     font-weight: 800;
     margin: 0;
-    margin-left: 60px;
+    margin-left: 50px;
 }
 
 /* footer section */
